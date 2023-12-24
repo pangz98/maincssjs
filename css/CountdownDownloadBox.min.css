@@ -1,4 +1,5 @@
 /* Countdown Download Box by Fineshop Design */
+/*<![CDATA[*/
 .dldCo{
   --boxC : #08102b; /* Font Color */
   --boxBg : #fffdfc; /* Container Background */
@@ -18,4 +19,4 @@
 .dldBt{background:var(--btnBg);position:absolute;width:40px;height:40px;bottom:-20px;right:20px;outline:none;border:none;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 15px rgba(0,0,0,.09);transition:all .3s ease;-webkit-transition:all .3s ease;cursor:pointer} .dldBt:hover{-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03)} .dldBt svg{width:24px;height:24px;fill:none;stroke:var(--svgS);stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2} .dldBt.dldDl{visibility:visible;opacity:1} .dldBt.dldRt{visibility:hidden;opacity:0;bottom:-40px}
 .dldSl{z-index:1;position:absolute;bottom:0;height:60px;width:100%;background:var(--boxBg);border-radius:0 0 10px 10px;transition:all .6s ease;-webkit-transition:all .6s ease} .dldMe{position: absolute;width:100%;height:40px;bottom:0;display:flex;align-items:center;justify-content:center;font-size:14px} .dldMe span{color:var(--btnBg);font-size:18px;font-weight:600;margin:0 5px}
 .dldCo.dldAlt{margin:30px 0 70px} .dldCo.dldAlt .dldIm{-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);border-radius:50%} .dldCo.dldAlt .dldSv{opacity:1} .dldCo.dldAlt .dldDl{visibility:hidden;opacity:0;bottom:-40px} .dldCo.dldRty .dldRt{visibility:visible;opacity:1;bottom:-20px} .dldCo.dldAlt .dldSl{bottom:-40px;box-shadow:0 0 35px rgba(0,0,0,.09)}
-.darkMode .dldCo{color:var(--darkC)} .darkMode .dldBx{background:var(--darkBs)} .darkMode .dldIm, .darkMode .dldSl{background:var(--darkBa)} .darkMode .dldSv .b{stroke:#404045} .darkMode .dldSv .c{stroke:var(--darkBt)} .darkMode .dldBt{background:var(--darkBt)} .darkMode .dldMe span{color:var(--darkBt)}
+.darkMode .dldCo{color:var(--darkC)} .darkMode .dldBx{background:var(--darkBs)} .darkMode .dldIm, .darkMode .dldSl{background:var(--darkBa)} .darkMode .dldSv .b{stroke:#404045} .darkMode .dldSv .c{stroke:var(--darkBt)} .darkMode .dldBt{background:var(--darkBt)} .darkMode .dldMe span{color:var(--darkBt)}/*]]>*/
